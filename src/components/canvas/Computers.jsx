@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 const Computers = () => {
+  
   return (
-    <div>Computers</div>
+    <div>
+      Computers
+    </div>
   )
 }
 
