@@ -4,25 +4,28 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
+    cpp,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
+    matlab,
     git,
+    canva,
+    cadence,
+    ps,
     figma,
-    docker,
+    python,
+    github1,
     meta,
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+    codebox,
+    gps,
+    billing,
   } from "../assets";
   
   export const navLinks = [
@@ -68,7 +71,7 @@ import {
     },
   ];
   
-  const technologies = [
+  const skills = [
     {
       name: "HTML 5",
       icon: html,
@@ -82,16 +85,24 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "C / C++",
+      icon: cpp,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "Matlab",
+      icon: matlab,
+    },
+    {
+      name: "Cadence",
+      icon: cadence,
     },
     {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -106,21 +117,27 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
+      name: "git Bash",
       icon: git,
     },
     {
-      name: "figma",
+      name: "Figma",
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "GitHub",
+      icon: github1,
     },
+    {
+      name: "Canva",
+      icon: canva,
+    },
+    {
+      name: "Photoshop",
+      icon: ps,
+    },
+    
+
   ];
   
   const experiences = [
@@ -180,68 +197,44 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "CodeBox",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "An web based tool built using JavaScript and OpenAI API, with more than a dozen programming languages under its belt. CodeBox is now capable of understanding straightforward user requests in natural language and carrying them out on the user's behalf.",
       tags: [
         {
-          name: "react",
+          name: "JavaScript",
           color: "blue-text-gradient",
         },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: codebox,
+      source_code_link: "https://github.com/sangeethanayak/CodeBox",
     },
     {
-      name: "Job IT",
+      name: "8051 microcontroller-GPS interface",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "The GPS receiver is used to get accurate geographical location by receiving information from satellites. The GPS receiver gives output serially in form of strings. These strings are received serially by 8051 microcontroller. This information is displayed using LCD in a proper format.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
+          name: "EmbeddedC",
           color: "green-text-gradient",
         },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: gps,
+      source_code_link: "https://github.com/sangeethanayak/GPS-8051_interface",
     },
     {
-      name: "Trip Guide",
+      name: "Billing System",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A Supermarket billing system built using the OOP concepts of C++, file handling and CRUD operations. ",
       tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
+          name: "C++",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: billing,
+      source_code_link: "https://github.com/sangeethanayak/Billing-System",
     },
   ];
   
-  export { services, technologies, experiences, projects };
+  export { services, skills, experiences, projects };
