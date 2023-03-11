@@ -1,8 +1,4 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
     javascript,
     html,
     css,
@@ -19,10 +15,9 @@ import {
     figma,
     python,
     github1,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    nitte,
+    joseph,
+    canara,
     codebox,
     gps,
     billing,
@@ -50,25 +45,6 @@ import {
       title: "Contact",
     },
     
-  ];
-  
-  const services = [
-    {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
   ];
   
   const skills = [
@@ -117,7 +93,7 @@ import {
       icon: mongodb,
     },
     {
-      name: "git Bash",
+      name: "git",
       icon: git,
     },
     {
@@ -140,57 +116,38 @@ import {
 
   ];
   
-  const experiences = [
+  const education = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Undergraduation",
+      university_name: "N.M.A.M. Institute of Technology, Nitte",
+      icon: nitte,
+      iconBg: "white",
+      date: "October 2020 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Pursuing Bachelor's degree in Electronics and Communication Engineering",
+        "Current CGPA: 8.46/10",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Pre-University Education",
+      university_name: "Canara Pre-University College, Mangaluru",
+      icon: canara,
+      iconBg: "white",
+      date: "May 2018 - July 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Completed two years of pre-university education with PCMB major",
+        "Aggregate percentage: 92.66%",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      title: "Secondary Education",
+      university_name: "St. Joseph's Junior College, Bajpe",
+      icon: joseph,
+      iconBg: "white",
+      date: "May 2015 - April - 2018",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Completed Secondary education with Science and Mathematics as major.", 
+        "Aggregate percentage: 96.48%",
       ],
     },
   ];
@@ -237,4 +194,4 @@ import {
     },
   ];
   
-  export { services, skills, experiences, projects };
+  export { skills, education, projects };

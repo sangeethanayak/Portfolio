@@ -6,7 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-
+import { github, gmail, linkedin, instagram} from "../assets";
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -66,7 +66,7 @@ const Contact = () => {
 
   return (
     <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
+      className={`xl:mt-2 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
@@ -74,7 +74,43 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact</h3>
-
+      <p align="center">
+       <div className='flex cursor-pointer'>
+              <a href="mailto:sangeethanayak333@gmail.com" target="_blank">
+              <img
+                src={gmail}
+                alt='mail'
+                height = '10px'
+                width = '38%'
+              />
+              </a>&nbsp;&nbsp;
+              <a href="https://github.com/sangeethanayak" target="_blank">
+              <img
+                src={github}
+                alt='github'
+                height = '10px'
+                width = '40%'
+              />
+              </a>&nbsp;&nbsp;
+              <a href="https://www.linkedin.com/in/sangeetha-nayak-340128247/" target="_blank">
+              <img
+                src={linkedin}
+                alt='linkedin'
+                height = '10px'
+                width = '40%'
+              />
+              </a>&nbsp;&nbsp;
+              <a href="https://instagram.com/_i_sangeetha" target="_blank">
+              <img
+                src={instagram}
+                alt ='instagram'
+                height = '10px'
+                width = '38%'
+              />
+              </a>&nbsp;&nbsp;
+       </div>
+       </p>
+      
         <form
           ref={formRef}
           onSubmit={handleSubmit}
@@ -116,7 +152,7 @@ const Contact = () => {
 
           <button
             type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+            className='bg-white py-3 px-8 rounded-xl outline-none w-fit text-tertiary font-bold shadow-md shadow-primary'
           >
             {loading ? "Sending..." : "Send"}
           </button>

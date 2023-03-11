@@ -1,9 +1,8 @@
 import logo from "./logo.png";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
 import github from "./github.png";
+import gmail from "./gmail.png";
+import instagram from "./instagram.png";
+import linkedin from "./linkedin.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -24,10 +23,9 @@ import canva from "./tech/canva.png";
 import ps from "./tech/ps.png";
 import cadence from "./tech/cadence.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import canara from "./education/canara.png";
+import joseph from "./education/joseph.png";
+import nitte from "./education/nitte.png";
 
 import codebox from "./codebox.png";
 import gps from "./gps.png";
@@ -35,11 +33,10 @@ import billing from "./billing.png";
 
 export {
   logo,
-  backend,
-  creator,
-  mobile,
-  web,
   github,
+  gmail,
+  linkedin,
+  instagram,
   menu,
   close,
   css,
@@ -58,10 +55,9 @@ export {
   matlab,
   github1,
   python,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  nitte,
+  canara,
+  joseph,
   codebox,
   gps,
   billing,

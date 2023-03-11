@@ -9,14 +9,14 @@ const Skills = () => {
   return (
     <>
     <motion.div variants={textVariant()}>
-        <h2 className={`${styles.sectionHeadText}`}>Skills</h2>
+        <h2 className={`${styles.sectionHeadText} text-center`}>Skills</h2>
       </motion.div>
     <div className='flex flex-row flex-wrap justify-center gap-10'>
       {skills.map((skills) => (
         <div className='w-28 h-28' key={skills.name}>
           <BallCanvas icon={skills.icon} />
           <div>
-            <h1 className='mt-3 text-secondary text-[18px] max-w-2xl leading-[30px]'>{`${skills.name}`}</h1>
+            <h1 className='mt-2 text-secondary text-[18px] max-w-2xl leading-[30px] text-center'>{`${skills.name}`}</h1>
             </div>
         </div>
       ))}
@@ -26,4 +26,4 @@ const Skills = () => {
   );
 };
 
-export default SectionWrapper(Skills, "");
+export default SectionWrapper(Skills, "skills");
