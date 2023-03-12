@@ -9,7 +9,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <nav
-    className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
+    className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-tertiary bg-opacity-70`}
     >
     <div className="w-full flex justify-between items-center max-w-7x1 mx-auto">
       <Link 
@@ -32,7 +32,7 @@ const Navbar = () => {
             active === link.title
             ? "text-white"
             : "text-secondary"
-          } hover:text-white text-[18px] font-medium cursor-pointer`}
+          } hover:text-white hover:underline underline-offset-8 decoration-indigo-500 md:decoration-violet-500 decoration-2 text-[18px] font-medium cursor-pointer`}
           onClick={() => setActive(link.title)}
           >
             <a href={`#${link.id}`}>{link.title}</a>
@@ -63,12 +63,12 @@ const Navbar = () => {
           >
             <a href={`#${link.id}`}>{link.title}</a>
           </li>
+          
         ))}
       </ul>
         </div>
       </div>
     </div>
-    
 
     </nav>
     

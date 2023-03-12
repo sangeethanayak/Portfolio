@@ -19,7 +19,9 @@
     "react-router-dom": "^6.8.2",
     "react-tilt": "^0.1.4",
     "react-vertical-timeline-component": "^3.6.0",
-    "three": "^0.150.1"
+    "three": "^0.150.1",
+    "typewriter-effect": "^2.19.0",
+    "use-typewriter-hook": "^3.1.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",

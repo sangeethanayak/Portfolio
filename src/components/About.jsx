@@ -76,8 +76,7 @@ const About= () => {
         I'm a self-taught skilled front-end web developer who loves to work with HTML, CSS, 
         JavaScript, and having expertise in frameworks like ReactJS and Node.js. Apart from these I've expertise in programming languages 
         like C/C++, Python, Matlab and tools like Cadence. And yeah! I love to design and animate things. I'm a quick learner and collaborate closely with teammates to 
-        create efficient, scalable, and user-friendly solutions that solve.
-        real-world problems. 
+        create efficient, scalable, and user-friendly solutions that solve real-world problems. 
       </motion.p>
 
 
