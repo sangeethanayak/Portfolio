@@ -86,7 +86,6 @@ const Projects = () => {
           and manage projects effectively. For more projects visit my <span class="font-semibold italic text-white"><a href ="https://github.com/sangeethanayak">GitHub profile</a></span>.
         </motion.p>
       </div>
-
       <div className='mt-20 flex flex-wrap gap-7'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
