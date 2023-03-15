@@ -36,9 +36,11 @@ const Navbar = () => {
           onClick={() => setActive(link.title)}
           >
             <a href={`#${link.id}`}>{link.title}</a>
-          </li>
+         </li>
+          
         ))}
       </ul>
+      
       <div className="sm:hidden flex flex-1 justify-end items-center">
         <img 
         src={toggle ? close : menu}

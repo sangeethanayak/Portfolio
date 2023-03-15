@@ -5,6 +5,7 @@ import {
     cpp,
     reactjs,
     tailwind,
+    bootstrap,
     nodejs,
     mongodb,
     matlab,
@@ -85,6 +86,10 @@ import {
       icon: tailwind,
     },
     {
+      name: "Bootstrap",
+      icon: bootstrap,
+    },
+    {
       name: "Node JS",
       icon: nodejs,
     },
@@ -144,7 +149,7 @@ import {
       university_name: "St. Joseph's Junior College, Bajpe",
       icon: joseph,
       iconBg: "white",
-      date: "May 2015 - April - 2018",
+      date: "May 2015 - April 2018",
       points: [
         "Completed Secondary education with Science and Mathematics as major.", 
         "Aggregate percentage: 96.48%",
@@ -156,7 +161,7 @@ import {
     {
       name: "CodeBox",
       description:
-        "An web based tool built using JavaScript and OpenAI API, with more than a dozen programming languages under its belt. CodeBox is now capable of understanding straightforward user requests in natural language and carrying them out on the user's behalf.",
+        "An web based tool built using JavaScript and OpenAI API, with more than a dozen programming languages under its belt. CodeBox is capable of understanding straightforward user requests in natural language and carrying them out on the user's behalf.",
       tags: [
         {
           name: "JavaScript",

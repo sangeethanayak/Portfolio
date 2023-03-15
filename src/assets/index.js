@@ -22,6 +22,7 @@ import cpp from "./tech/cpp.png";
 import canva from "./tech/canva.png";
 import ps from "./tech/ps.png";
 import cadence from "./tech/cadence.png";
+import bootstrap from "./tech/bootstrap.png";
 
 import canara from "./education/canara.png";
 import joseph from "./education/joseph.png";
@@ -50,6 +51,7 @@ export {
   javascript,
   mongodb,
   nodejs,
+  bootstrap,
   reactjs,
   tailwind,
   matlab,
