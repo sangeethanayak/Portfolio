@@ -12,6 +12,7 @@
     "@emailjs/browser": "^3.10.0",
     "@react-three/drei": "^9.57.1",
     "@react-three/fiber": "^8.11.10",
+    "build": "^0.1.4",
     "dotenv": "^16.0.3",
     "framer-motion": "^10.2.3",
     "maath": "^0.5.2",
@@ -22,7 +23,8 @@
     "react-vertical-timeline-component": "^3.6.0",
     "three": "^0.150.1",
     "typewriter-effect": "^2.19.0",
-    "use-typewriter-hook": "^3.1.1"
+    "use-typewriter-hook": "^3.1.1",
+    "vercel": "^28.17.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
