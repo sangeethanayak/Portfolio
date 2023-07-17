@@ -5,6 +5,8 @@ import instagram from "./instagram.png";
 import linkedin from "./linkedin.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import astronaut from "./astronaut.png";
+import astronaut1 from "./astronaut1.png";
 
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
@@ -34,6 +36,8 @@ import billing from "./billing.png";
 
 export {
   logo,
+  astronaut,
+  astronaut1,
   github,
   gmail,
   linkedin,

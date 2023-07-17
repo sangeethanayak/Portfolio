@@ -2,9 +2,11 @@ import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { SectionWrapper } from "../hoc";
 import Typewriter from "typewriter-effect";
+import { astronaut1 } from '../assets';
+
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen mx-auto">
+    <section className="relative w-auto h-auto mx-auto">
       
       <div className={`${styles.paddingX} relative inset-0 top-[50px] max-w-7x1 mx-auto flex flex-row items-start gap-5`}>
           
@@ -20,7 +22,7 @@ const Hero = () => {
             
           <Typewriter
             options={{
-            strings: ['ECE student', 'Front-End Developer', 'VLSI enthusiast'],
+            strings: ['Developer', 'Programmer', 'Student'],
             autoStart: true,
             loop: true,
           }}
@@ -35,27 +37,13 @@ const Hero = () => {
           </button>
          </a>
          </div>
+         <div className = 'astronaut'>
+        <img src={astronaut1} alt="astronaut1" width={'50%'} className ='animate-bounce w-1/4 h-auto mx-auto justify-center'/>
+      </div>
         </div>
     </div>
       
-        
-      <div className='absolute xs:bottom-5 bottom-32 w-full flex justify-center items-center'>
-        <a href='#home'>
-          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
-            <motion.div
-              animate={{
-                y: [0, 24, 0],
-              }}
-              transition={{
-                duration: 1.5,
-                repeat: Infinity,
-                repeatType: "loop",
-              }}
-              className='w-3 h-3 rounded-full bg-secondary mb-1'
-            />
-          </div>
-          </a>
-        </div>
+      
     </section>
   )
 }

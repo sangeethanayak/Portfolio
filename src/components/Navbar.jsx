@@ -7,9 +7,10 @@ import { logo, menu, close } from '../assets';
 const Navbar = () => {
   const [active, setActive] = useState('');
   const [toggle, setToggle] = useState(false);
+  
   return (
     <nav
-    className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-tertiary bg-opacity-70`}
+    className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-tertiary border-b-2 border-gray-700`}
     >
     <div className="w-full flex justify-between items-center max-w-7x1 mx-auto">
       <Link 
@@ -39,7 +40,9 @@ const Navbar = () => {
          </li>
           
         ))}
+        
       </ul>
+      
       
       <div className="sm:hidden flex flex-1 justify-end items-center">
         <img 
