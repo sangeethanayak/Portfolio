@@ -10,7 +10,7 @@ const Navbar = () => {
   
   return (
     <nav
-    className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-tertiary border-b-2 border-gray-700`}
+    className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 opacity-90 z-20 bg-slate-900 border-b-2 border-gray-600`}
     >
     <div className="w-full flex justify-between items-center max-w-7x1 mx-auto">
       <Link 
@@ -22,7 +22,7 @@ const Navbar = () => {
       }}
       >
      <img src ={logo} alt ="logo" className = "w-9 h-9 object-contain" />
-      <p className="text-white text-[18px] font-bold cursor-pointer flex">Sangeetha &nbsp;
+      <p className="text-slate-100 text-[18px] font-bold cursor-pointer flex">Sangeetha &nbsp;
       <span className="sm:block hidden">Nayak</span></p>
       </Link>
       <ul className="list-none hidden sm:flex flex-row gap-10">
@@ -33,7 +33,7 @@ const Navbar = () => {
             active === link.title
             ? "text-white"
             : "text-secondary"
-          } hover:text-white hover:underline underline-offset-8 decoration-indigo-500 md:decoration-violet-500 decoration-2 text-[18px] font-medium cursor-pointer`}
+          } hover:text-white hover:underline underline-offset-8 decoration-fuchsia-500 md:decoration-violet-500 decoration-2 text-[18px] font-medium cursor-pointer`}
           onClick={() => setActive(link.title)}
           >
             <a href={`#${link.id}`}>{link.title}</a>

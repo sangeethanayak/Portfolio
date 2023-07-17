@@ -17,7 +17,7 @@ const App = () => {
           <Preloader />
         ) : (
       
-    <div className="relative z-0 bg-primary">
+    <div className="relative z-0 bg-gradient-to-r from-slate-900 to-fuchsia-900">
       
       
        <Navbar />
